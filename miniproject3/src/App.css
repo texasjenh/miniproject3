@@ -1,0 +1,225 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header style */
+.header {
+  display: flex;
+  position: relative;
+  background-image: url("images/bookshelf.jpg");
+  min-height: 500px;
+  justify-content: center;
+}
+
+.h1 {
+  font-family: "Playwrite AU SA", serif;
+  font-size: 96px;
+  color: #ffffff;
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  animation-name: colorchange;
+  animation-duration: 8s;
+}
+
+@keyframes colorchange {
+  0%   {color:#ffffff;}
+  25%  {color: #445E93;}
+  50%  {color:#cc5803;}
+  75%  {color: #9c68a7;}
+  100% {color:#ffffff}
+}
+
+/* Navbar style */
+
+.navbar {  
+  position: sticky;
+  background-color: #2e799b;
+  font-family: "Lexend Exa", sans-serif;
+  margin: none;    
+}
+
+.ul {
+  margin: 8px;
+  font-size: 18px;
+}
+
+.li {
+  list-style-type: none;
+  display: inline;   
+  margin-right: 2em; 
+  margin-bottom: 12px;
+  text-align: center;
+  justify-content: center;
+  color: #f2f2f2;
+}
+
+.a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #cc5803;
+  color: #ffffff;
+  padding: 18px;
+}
+  
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: left;
+    display: block;
+  }
+}
+
+/* Subscribe Form style */
+.subscribe {
+  margin-right: 4px;
+}
+
+/* Page styles */
+.section {
+  margin-bottom: 5em;
+}
+
+.head2 {
+  font-family: "Playwrite AU SA", serif;
+  font-size: 34px;
+  text-align: center;
+  color: #7F055F;
+  margin-top: 1em;
+  margin-bottom: 20px;  
+  justify-content: center;
+}
+
+.about {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 12px;
+  justify-content: center;
+  
+}
+
+.about2 {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 2em;
+  justify-content: center;
+  font-size: 18px;
+  color: #CC5803;
+}
+
+.submit {
+  background-color:#CC5803;
+  color: #ffffff;
+  border-color: #7F055F;
+  justify-content: center;
+  font-size: 18px;
+  margin-bottom: 5em;
+}
+
+.label {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 2em;
+  justify-content: center;
+}
+
+.email {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 2em;
+  justify-content: center;
+}
+
+.address {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;    
+}
+
+/* AllBooks styles */
+.row no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.image-row {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.card-img-top {
+  width: 10em; 
+  height: 16em; 
+  border-radius: 14px;
+  margin: 10px 10px;
+}
+
+.card {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 5px 5px;
+  margin-bottom: 4em;
+}
+
+.btn {
+  width: 10em;
+  height: 30px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding: 3px 3px;
+}
+
+.h2 {
+  font-family: "Lexend Exa", sans-serif;
+}
+
+.head3a {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color: #CC5803;
+}
+
+.head3b {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color:#Fa3943;
+}
+
+.head3c {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color:#9d42af;
+}
+
+.head3d {
+  font-family: "Lexend Exa", sans-serif;
+  text-align: center;
+  color:#7F055F;
+}
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #2e799b;
+  color: #ffffff;
+  text-align: right;
+  font-family: "Lexend Exa", sans-serif;
+} 

@@ -1,0 +1,72 @@
+
+.img {
+    max-width: 100%;
+  }
+
+.image-row {
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5px 5px;
+    margin-bottom: 4em;
+  }
+
+.card-img-top {
+    max-width: 10em; 
+    max-height: 20em; 
+    border-radius: 10px; 
+}
+
+.btn {
+    width: 10em;
+    height: 30px;
+    font-size: 14px;
+    padding: 5px 5px;
+  }
+
+.h2 {
+    font-family: "Lexend Exa", sans-serif;
+}
+
+.head2 {
+    font-family: "Playwrite AU SA", serif;
+    font-size: 36px;
+    text-align: center;
+    color: #7F055F;
+}
+
+.head3a {
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+    color: #CC5803;
+    margin-bottom: 1em;
+}
+
+.head3b {
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+    color:#Fa3943;
+    margin-bottom: 1em;
+}
+
+.head3c {
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+    color:#9d42af;
+    margin-bottom: 1em;
+}
+
+.head3d {
+    font-family: "Lexend Exa", sans-serif;
+    text-align: center;
+    color:#7F055F;
+    margin-bottom: 1em;
+}
