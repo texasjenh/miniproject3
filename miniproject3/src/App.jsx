@@ -1,15 +1,9 @@
 import './App.css'
-import Header from './pages/header'
+import Header from './components/header'
 import Navbar from './components/navbar'
-import AllBooks from './pages/AllBooks'
-import AboutUs from './pages/AboutUs'
-import Footer from './pages/footer'
-import EmailForm from './pages/EmailList'
-import HomePage from './pages/HomePage'
+import Footer from './components/footer'
 import AppRoutes from './routes/AppRoutes'
-import { BrowserRouter } from 'react-router-dom'
-
-
+import LoginSignup from './components/LoginSignup/LoginSignup'
 
 
 function App() {

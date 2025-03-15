@@ -1,11 +1,14 @@
 import React from "react"
-import '../app.css'
+import Container from "react-bootstrap/esm/Container"
+import './footer.css'
 
 function Footer() {
     return (
+        <Container fluid>
         <footer className="footer">
             &copy; 2024 JNHARRISON
-        </footer>           
+        </footer> 
+        </Container>                  
     )
 }
 export default Footer
